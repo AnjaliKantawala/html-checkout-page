@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="image/favicon.ico">
+    <script src="https://kit.fontawesome.com/d6f53da7c0.js" crossorigin="anonymous"></script>
+    <title>Perte</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="image/logo.png" alt="logo" class="logo" />
+        </header>
+        <section class="two-column-layout">
+            <div class="sidebar-wrapper">
+                <div class="sidebar">
+                    <div class="explad-collaps">
+                        <div class="collapsed-title">
+                            <span>Order summary <i class="fa-solid fa-angle-up"></i><i class="fa-solid fa-angle-down"></i></span>
+                            <label>$193,499</label>
+                        </div>
+                        <div class="collapsed-content">
+                            <div class="cart-items">
+                                <div class="item">
+                                    <div class="image">
+                                        <img src="image/product.png" alt="cluster ring" />
+                                        <div class="qty">1</div>
+                                    </div>
+                                    <div class="detail">
+                                        <strong class="name">Beautiful tear cluster ring</strong>
+                                        <ul class="attributs">
+                                            <li>Metal: 18k Gold metal finish: rose your</li>
+                                            <li>Size: 7<span>&#189;</span></li>
+                                        </ul>
+                                    </div>
+                                    <div class="price">
+                                        <strong>$193,499</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="order-summary">
+                                <li class="inc-price">
+                                    <label>Cart subtotal</label>
+                                    <span>$193,499</span>
+                                </li>
+                                <li class="inc-price">
+                                    <label>Shipping</label>
+                                    <span>$0</span>
+                                </li>
+                                <li class="inc-price">
+                                    <label>Estimated Tax</label>
+                                    <span>$0</span>
+                                </li>
+                                <li class="promo-code-wrap">
+                                    <div class="explad-collaps">
+                                        <div class="collapsed-title">
+                                            <label>Have a promo code? <span>Redeem now <i class="fa-solid fa-angle-up"></i><i class="fa-solid fa-angle-down"></i></span></label>
+                                        </div>
+                                        <div class="collapsed-content">
+                                            <div class="promo-code">
+                                                <div class="floating-content">
+                                                    <input type="text" class="floating-input" />
+                                                    <label class="floating-label">Promo code</label>
+                                                </div>
+                                                <button type="submit" class="apply-code">Apply</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="order-total inc-price">
+                                    <label>Total</label>
+                                    <span>$193,499</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="containt-area-wrapper">
+                <div class="containt-area">
+                    <ul class="breadcrumb">
+                        <li><a href="#">Information</a></li>
+                        <li><a href="#">Delivery</a></li>
+                        <li><a href="#">Payment</a></li>
+                    </ul>
+                    <div class="payment-process">
+                        <h1 class="page-title">How would you like to get your order?</h1>
+                        <div class="tabs">
+                            <ul id="tabs-nav" class="tabs-nav">
+                                <li>
+                                    <a href="#tab1" class="deliver">
+                                        <i class="fa-regular fa-truck"></i>I'd like it delivered
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#tab2" class="pick">
+                                        <i class="fa-regular fa-bag-shopping"></i>I'll pick it up
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="contact-info">
+                                <div class="heading">
+                                    <label>Contact information</label>
+                                    <span>Have an account? <a href="#">Login</a></span>
+                                </div>
+                                <div class="contact-box">
+                                    <form method="post" class="inputs">
+                                        <div class="floating-content">
+                                            <input type="email" id="email" class="floating-input" tabindex="1" />
+                                            <label class="floating-label">Email Address</label>
+                                        </div>
+                                        <input type="submit" class="mail-btn" />
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="tabs-details">
+                            <div id="tab1" class="tab-content">
+                                <div class="address-details">
+                                    <div class="title">Where should we send your order?</div>
+                                    <form method="post">
+                                        <div class="deliver-details">
+                                            <div class="input-grp">
+                                                <div class="floating-content">
+                                                    <input type="text" class="floating-input" tabindex="2" />
+                                                    <label class="floating-label">First Name</label>
+                                                </div>
+                                                <div class="error-message"></div>
+                                            </div>
+                                            <div class="input-grp">
+                                                <div class="floating-content">
+                                                    <input type="text" class="floating-input" tabindex="3" />
+                                                    <label class="floating-label">Last Name</label>
+                                                </div>
+                                                <div class="error-message"></div>
+                                            </div>
+                                            <div class="input-grp">
+                                                <div class="floating-content">
+                                                    <input type="text" class="floating-input" tabindex="4" />
+                                                    <label class="floating-label">Apartment / Suite / Building</label>
+                                                </div>
+                                                <div class="error-message"></div>
+                                            </div>
+                                            <div class="input-grp">
+                                                <div class="floating-content">
+                                                    <input type="text" class="floating-input" tabindex="5" />
+                                                    <label class="floating-label">Street Address</label>
+                                                </div>
+                                                <div class="error-message"></div>
+                                            </div>
+                                            <div class="input-grp">
+                                                <div class="floating-content">
+                                                    <input type="text" class="floating-input" tabindex="6" />
+                                                    <label class="floating-label">Landmark</label>
+                                                </div>
+                                                <div class="error-message"></div>
+                                            </div>
+                                            <div class="input-grp">
+                                                <div class="floating-content floating-content-select">
+                                                    <select class="floating-input floating-select" onclick="this.setAttribute('value', this.value);" tabindex="7" value="">
+                                                        <option value=""></option>
+                                                        <option value="1">United States</option>
+                                                        <option value="2">United States</option>
+                                                        <option value="3">United States</option>
+                                                        <option value="4">United States</option>
+                                                        <option value="5">United States</option>
+                                                    </select>
+                                                    <label class="floating-label">Country</label>
+                                                </div>
+                                                <div class="error-message"></div>
+                                            </div>
+                                            <div class="input-grp">
+                                                <div class="floating-content floating-content-select">
+                                                    <select class="floating-input floating-select" onclick="this.setAttribute('value', this.value);" tabindex="8" value="">
+                                                        <option value=""></option>
+                                                        <option value="1">Please select a region, state or province.</option>
+                                                        <option value="2">United States</option>
+                                                        <option value="3">United States</option>
+                                                        <option value="4">United States</option>
+                                                        <option value="5">United States</option>
+                                                    </select>
+                                                    <label class="floating-label">State/Province</label>
+                                                </div>
+                                                <div class="error-message"></div>
+                                            </div>
+                                            <div class="input-grp half">
+                                                <div class="floating-content">
+                                                    <input type="text" class="floating-input" tabindex="9" />
+                                                    <label class="floating-label">City</label>
+                                                </div>
+                                                <div class="error-message"></div>
+                                            </div>
+                                            <div class="input-grp half">
+                                                <div class="floating-content">
+                                                    <input type="text" class="floating-input" tabindex="10" />
+                                                    <label class="floating-label">Zip/Postal Code</label>
+                                                </div>
+                                                <div class="error-message"></div>
+                                            </div>
+                                            <div class="input-grp">
+                                                <div class="floating-content">
+                                                    <input type="text" class="floating-input" tabindex="11" />
+                                                    <label class="floating-label">Company</label>
+                                                </div>
+                                                <div class="error-message"></div>
+                                            </div>
+                                            <div class="phone-number">
+                                                <div class="floating-content-select">
+                                                    <select tabindex="12">
+                                                        <option value="1">+1</option>
+                                                        <option value="2">+1</option>
+                                                    </select>
+                                                </div>
+                                                <div class="floating-content">
+                                                    <input type="number" class="floating-input" tabindex="11" />
+                                                    <label class="floating-label">Phone Number</label>
+                                                </div>
+                                            </div>
+                                            <div class="input-grp">
+                                                <div class="floating-content">
+                                                    <input type="number" class="floating-input" tabindex="12" />
+                                                    <label class="floating-label">VAT Number</label>
+                                                </div>
+                                                <div class="error-message"></div>
+                                            </div>
+                                        </div>
+                                        <input type="submit" class="primary-btn continue" value="Continue to Delivery" />
+                                        <a href="#" class="return-btn"><i class="fa-solid fa-angle-left"></i>Return to Bag</a>
+                                    </form>
+                                </div>
+                                <div class="faq">
+                                    <div class="explad-collaps">
+                                        <div class="collapsed-title">
+                                            <label>FAQs for Buying</label>
+                                            <span class="icon"><i class="fa-regular fa-plus"></i><i class="fa-solid fa-minus"></i></span>
+                                        </div>
+                                        <div class="collapsed-content">
+                                            <div class="explad-collaps explad-collaps-nested">
+                                                <div class="collapsed-title">
+                                                    <label>We found something ilove but its out of stock help!</label>
+                                                    <span class="icon"><i class="fa-regular fa-plus"></i><i class="fa-solid fa-minus"></i>
+                                                </div>
+                                                <div class="collapsed-content">
+                                                    Don't worry, we wouldnt tease you tke that! Go ahead and place your order, and well make it especially for you. Expect ito ship within 2 weeks for solid gold and 4 weeks for vermeil pieces.
+                                                </div>
+                                            </div>
+                                            <div class="explad-collaps explad-collaps-nested">
+                                                <div class="collapsed-title">
+                                                    <label>Can i change or cancel an order?</label>
+                                                    <span class="icon"><i class="fa-regular fa-plus"></i><i class="fa-solid fa-minus"></i>
+                                                </div>
+                                                <div class="collapsed-content">
+                                                    Don't worry, we wouldnt tease you tke that! Go ahead and place your order, and well make it especially for you. Expect ito ship within 2 weeks for solid gold and 4 weeks for vermeil pieces.
+                                                </div>
+                                            </div>
+                                            <div class="explad-collaps explad-collaps-nested">
+                                                <div class="collapsed-title">
+                                                    <label>Can order through your website?</label>
+                                                    <span class="icon"><i class="fa-regular fa-plus"></i><i class="fa-solid fa-minus"></i>
+                                                </div>
+                                                <div class="collapsed-content">
+                                                    Don't worry, we wouldnt tease you tke that! Go ahead and place your order, and well make it especially for you. Expect ito ship within 2 weeks for solid gold and 4 weeks for vermeil pieces.
+                                                </div>
+                                            </div>
+                                            <div class="explad-collaps explad-collaps-nested">
+                                                <div class="collapsed-title">
+                                                    <label>I have my own diamond but i'd like to purchase one of your settings. can you set my diamond into a perte ring?</label>
+                                                    <span class="icon"><i class="fa-regular fa-plus"></i><i class="fa-solid fa-minus"></i>
+                                                </div>
+                                                <div class="collapsed-content">
+                                                    Don't worry, we wouldnt tease you tke that! Go ahead and place your order, and well make it especially for you. Expect ito ship within 2 weeks for solid gold and 4 weeks for vermeil pieces.
+                                                </div>
+                                            </div>
+                                            <div class="explad-collaps explad-collaps-nested">
+                                                <div class="collapsed-title">
+                                                    <label>Can i custom design an engagement ring?</label>
+                                                    <span class="icon"><i class="fa-regular fa-plus"></i><i class="fa-solid fa-minus"></i>
+                                                </div>
+                                                <div class="collapsed-content">
+                                                    Don't worry, we wouldnt tease you tke that! Go ahead and place your order, and well make it especially for you. Expect ito ship within 2 weeks for solid gold and 4 weeks for vermeil pieces.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tab2" class="tab-content">
+                                <div class="address-details">
+                                    <div class="title">Who will pickup the order?</div>
+                                    <form method="post">
+                                        <div class="deliver-details">
+                                            <div class="input-grp">
+                                                <div class="floating-content half">
+                                                    <input type="text" class="floating-input" tabindex="13" />
+                                                    <label class="floating-label">First Name</label>
+                                                </div>
+                                                <div class="error-message"></div>
+                                            </div>
+                                            <div class="input-grp">
+                                                <div class="floating-content half">
+                                                    <input type="text" class="floating-input" tabindex="14" />
+                                                    <label class="floating-label">Last Name</label>
+                                                </div>
+                                                <div class="error-message"></div>
+                                            </div>
+                                            <div class="phone-number">
+                                                <select tabindex="15">
+                                                    <option value="1">+1</option>
+                                                    <option value="2">+1</option>
+                                                </select>
+                                                <div class="floating-content">
+                                                    <input type="number" class="floating-input" tabindex="16" />
+                                                    <label class="floating-label">Phone Number</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <input type="submit" class="primary-btn continue" value="Continue to store selection" />
+                                        <a href="#" class="return-btn">Return to Bag</a>
+                                    </form>
+                                </div>
+                                <div class="faq">
+                                    <div class="explad-collaps">
+                                        <div class="collapsed-title">
+                                            <label>FAQs for Delivery & Pickup</label>
+                                            <span class="icon"><i class="fa-regular fa-plus"></i><i class="fa-solid fa-minus"></i>
+                                        </div>
+                                        <div class="collapsed-content">
+                                            <div class="explad-collaps explad-collaps-nested">
+                                                <div class="collapsed-title">
+                                                    <label>My tracking number says delivered but i cant find my package?</label>
+                                                    <span class="icon"><i class="fa-regular fa-plus"></i><i class="fa-solid fa-minus"></i>
+                                                </div>
+                                                <div class="collapsed-content">
+                                                    Oh no! You can reach out to our support team at support@seepossible.com and we can assist in fling a lost package claim. Unfortunately, we are not responsible for lost or stolen packages after the courier has dropped them off.Read More
+                                                </div>
+                                            </div>
+                                            <div class="explad-collaps explad-collaps-nested">
+                                                <div class="collapsed-title">
+                                                    <label>Does perte provide a tracking number?</label>
+                                                    <span class="icon"><i class="fa-regular fa-plus"></i><i class="fa-solid fa-minus"></i>
+                                                </div>
+                                                <div class="collapsed-content">
+                                                    Oh no! You can reach out to our support team at support@seepossible.com and we can assist in fling a lost package claim. Unfortunately, we are not responsible for lost or stolen packages after the courier has dropped them off.Read More
+                                                </div>
+                                            </div>
+                                            <div class="explad-collaps explad-collaps-nested">
+                                                <div class="collapsed-title">
+                                                    <label>Can i check the status of my order?</label>
+                                                    <span class="icon"><i class="fa-regular fa-plus"></i><i class="fa-solid fa-minus"></i>
+                                                </div>
+                                                <div class="collapsed-content">
+                                                    Oh no! You can reach out to our support team at support@seepossible.com and we can assist in fling a lost package claim. Unfortunately, we are not responsible for lost or stolen packages after the courier has dropped them off.Read More
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <a href="#">Refund policy</a>
+            <a href="#">Privacy policy</a>
+            <a href="#">Terms of service</a>
+        </footer>
+    </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
