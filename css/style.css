@@ -581,7 +581,7 @@ input::-webkit-inner-spin-button {
     }
     body::before {
         content: "";
-        background: var(var(--background));
+        background: var(--background);
         position: absolute;
         height: 100%;
         width: 100vw;
